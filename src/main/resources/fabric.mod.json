@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "test-mod-1",
+	"version": "${version}",
+	"name": "Test mod 1",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/test-mod-1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"daggerprime.testmod1.TestMod1"
+		],
+		"fabric-datagen": [
+			"daggerprime.testmod1.TestMod1DataGenerator"
+		]
+	},
+	"mixins": [
+		"test-mod-1.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

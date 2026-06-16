@@ -16,6 +16,18 @@ public class CustomItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.astralite"))
                     .icon(() -> new ItemStack(CustomItems.ASTRALITE_INGOT)).entries((displayContext, entries) -> {
                         entries.add(CustomItems.ASTRALITE_INGOT);
+                        entries.add(CustomItems.CHRONITE_INGOT);
+                        entries.add(CustomItems.CHRONITE_PRISM);
+                        entries.add(CustomItems.MAGITECH_INGOT);
+                        entries.add(CustomItems.FERRUM_CHALYBS_INGOT);
+                        entries.add(CustomItems.MULTUS_GEMMA_INGOT);
+                        entries.add(CustomItems.PLATINUM_INGOT);
+                        entries.add(CustomItems.RAW_PLATINUM);
+                        entries.add(CustomItems.RAW_RUBY);
+                        entries.add(CustomItems.RUBY_INGOT);
+                        entries.add(CustomItems.STEEL_INGOT);
+                        entries.add(CustomItems.VOID_INGOT);
+                        entries.add(CustomItems.VOID_SHARD);
 
                     }).build());
 

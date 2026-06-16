@@ -25,7 +25,6 @@ public class CustomItemGroups {
                         entries.add(CustomItems.RAW_PLATINUM);
                         entries.add(CustomItems.RAW_RUBY);
                         entries.add(CustomItems.RUBY_INGOT);
-                        entries.add(CustomItems.STEEL_INGOT);
                         entries.add(CustomItems.VOID_INGOT);
                         entries.add(CustomItems.VOID_SHARD);
 

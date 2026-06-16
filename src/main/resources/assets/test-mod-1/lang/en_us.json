@@ -1,4 +1,15 @@
 {
   "item.test-mod-1.astralite_ingot": "Astralite Ingot",
-  "itemgroup.astralite": "Special Ores"
+  "itemgroup.astralite": "Special Ores",
+  "item.test-mod-1.chronite_ingot": "Chronite Ingot",
+  "item.test-mod-1.chronite_prism": "Chronite Prism",
+  "item.test-mod-1.ferrum_chalybs_ingot": "Ferrum Chalybs Ingot",
+  "item.test-mod-1.magitech_ingot": "Magitech Ingot",
+  "item.test-mod-1.multus_gemma_ingot": "Multus Gemma Ingot",
+  "item.test-mod-1.platinum_ingot": "Platinum Ingot",
+  "item.test-mod-1.raw_platinum": "Raw Platinum",
+  "item.test-mod-1.raw_ruby": "Raw Ruby",
+  "item.test-mod-1.ruby_ingot": "Ruby Ingot",
+  "item.test-mod-1.void_ingot": "Void Ingot",
+  "item.test-mod-1.void_shard": "Void Shard"
 }

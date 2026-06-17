@@ -5,6 +5,7 @@ import daggerprime.testmod1.item.CustomItemGroups;
 import daggerprime.testmod1.item.CustomItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +18,7 @@ public class TestMod1 implements ModInitializer {
         CustomItems.registerCustomItems();
         CustomItemGroups.registerItemGroups();
         CustomBlocks.registerCustomBlocks();
+        FuelRegistry.INSTANCE.add(CustomItems.VOID_SHARD, 1600);
 
         LOGGER.info("Hello Fabric world!");
     }

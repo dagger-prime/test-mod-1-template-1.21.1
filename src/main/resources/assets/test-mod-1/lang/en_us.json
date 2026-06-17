@@ -16,5 +16,7 @@
   "block.test-mod-1.astralite_ore": "Astralite Ore",
   "block.test-mod-1.void_ore": "Void Ore",
   "block.test-mod-1.platinum_ore": "Platinum Ore",
-  "block.test-mod-1.ruby_ore": "Ruby Ore"
+  "block.test-mod-1.ruby_ore": "Ruby Ore",
+  "void_shard.tooltip1": "Essence of the void that took physical form",
+  "rr1": "Rubies have marvelous fire resistance"
 }

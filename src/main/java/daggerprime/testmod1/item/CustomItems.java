@@ -19,7 +19,7 @@ public class CustomItems {
     public static final Item CHRONITE_INGOT = registerItem("chronite_ingot", new Item(new Item.Settings()));
     public static final Item PLATINUM_INGOT = registerItem("platinum_ingot", new Item(new Item.Settings()));
 
-    public static final Item MULTUS_GEMMA_INGOT = registerItem("multus_gemma_ingot", new Item(new Item.Settings()));
+    public static final Item MULTUS_GEMMA_INGOT = registerItem("multus_gemma_ingot.json", new Item(new Item.Settings()));
     public static final Item FERRUM_CHALYBS_INGOT = registerItem("ferrum_chalybs_ingot", new Item(new Item.Settings()));
     public static final Item MAGITECH_INGOT = registerItem("magitech_ingot", new Item(new Item.Settings()));
 

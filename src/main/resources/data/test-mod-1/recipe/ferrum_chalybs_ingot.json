@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+
+  },
+  "pattern": [
+    "",
+    "#@#",
+    ""
+  ],
+  "result": {
+    "count": 1,
+    "id": "test-mod-1:ferrum_chalybs_ingot"
+  }
+}

@@ -1,5 +1,6 @@
 package daggerprime.testmod1;
 
+import daggerprime.testmod1.block.CustomBlocks;
 import daggerprime.testmod1.item.CustomItemGroups;
 import daggerprime.testmod1.item.CustomItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,6 +16,7 @@ public class TestMod1 implements ModInitializer {
     public void onInitialize() {
         CustomItems.registerCustomItems();
         CustomItemGroups.registerItemGroups();
+        CustomBlocks.registerCustomBlocks();
 
         LOGGER.info("Hello Fabric world!");
     }

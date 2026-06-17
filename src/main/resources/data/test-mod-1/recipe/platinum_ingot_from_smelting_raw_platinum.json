@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": "600",
+  "experience": 0.4,
+  "group": "astralite",
+  "ingredient": {
+    "item": "test-mod-1:raw_platinum"
+  },
+  "result": {
+    "id": "test-mod-1:platinum_ingot"
+  }
+}

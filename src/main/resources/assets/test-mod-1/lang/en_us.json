@@ -11,5 +11,10 @@
   "item.test-mod-1.raw_ruby": "Raw Ruby",
   "item.test-mod-1.ruby_ingot": "Ruby Ingot",
   "item.test-mod-1.void_ingot": "Void Ingot",
-  "item.test-mod-1.void_shard": "Void Shard"
+  "item.test-mod-1.void_shard": "Void Shard",
+  "block.test-mod-1.chronite_ore": "Chronite Ore",
+  "block.test-mod-1.astralite_ore": "Astralite Ore",
+  "block.test-mod-1.void_ore": "Void Ore",
+  "block.test-mod-1.platinum_ore": "Platinum Ore",
+  "block.test-mod-1.ruby_ore": "Ruby Ore"
 }

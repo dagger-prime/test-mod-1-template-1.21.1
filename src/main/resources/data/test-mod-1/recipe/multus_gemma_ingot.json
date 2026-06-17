@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "@": {
+      "item": "minecraft:diamond"
+    },
+    "$": {
+      "item": "test-mod-1:ruby_ingot"
+    }
+
+  },
+  "pattern": [
+    "",
+    "#$@",
+    ""
+  ],
+  "result": {
+    "count": 1,
+    "id": "test-mod-1:multus_gemma_ingot"
+  }
+}

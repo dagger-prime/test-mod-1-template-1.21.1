@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "test-mod-1:magitech_ingot"
+    },
+    "@": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "pattern": [
+    " ##",
+    " @#",
+    " @ "
+  ],
+  "result": {
+    "count": 1,
+    "id": "test-mod-1:magitech_axe"
+  }
+}

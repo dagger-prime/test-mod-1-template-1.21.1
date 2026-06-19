@@ -1,9 +1,6 @@
 package daggerprime.testmod1;
 
-import daggerprime.testmod1.datagen.CustomBlockTag;
-import daggerprime.testmod1.datagen.CustomLootTables;
-import daggerprime.testmod1.datagen.CustomModels;
-import daggerprime.testmod1.datagen.CustomRecipes;
+import daggerprime.testmod1.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -16,6 +13,7 @@ public class TestMod1DataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(CustomModels::new);
         pack.addProvider(CustomRecipes::new);
         pack.addProvider(CustomLootTables::new);
+        pack.addProvider(CustomItemTag::new);
 
 	}
 }

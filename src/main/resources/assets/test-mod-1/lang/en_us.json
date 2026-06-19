@@ -18,5 +18,15 @@
   "block.test-mod-1.platinum_ore": "Platinum Ore",
   "block.test-mod-1.ruby_ore": "Ruby Ore",
   "void_shard.tooltip1": "Essence of the void that took physical form",
-  "rr1": "Rubies have marvelous fire resistance"
+  "rr1": "Rubies have marvelous fire resistance",
+  "itemgroup.custom_tools": "Custom Tools",
+  "item.test-mod-1.magitech_sword": "Magitech Sword",
+  "item.test-mod-1.magitech_shovel": "Magitech Shovel",
+  "item.test-mod-1.magitech_axe": "Magitech Axe",
+  "item.test-mod-1.magitech_pickaxe": "Magitech Pickaxe",
+  "item.test-mod-1.magitech_hoe": "Magitech Hoe",
+  "item.test-mod-1.platinum_pickaxe": "Platinum Pickaxe",
+  "cp1": "Time travel is acheived by literally tearing a hole in time,",
+  "cp2": "creating a rift that allows one to slip from the present to the time they chose.",
+  "cp3": "However, if the rift is not sealed quickly enough, it throws out ambient time energy"
 }

@@ -31,5 +31,6 @@ public class CustomRecipes  extends FabricRecipeProvider {
         offerSmelting(exporter, CHRON , RecipeCategory.MISC, CustomItems.CHRONITE_INGOT, 0.8f, 800, "Special Ores");
         offerBlasting(exporter, CHRON , RecipeCategory.MISC, CustomItems.CHRONITE_INGOT, 0.8f, 700, "Special Ores");
 
+
     }
 }

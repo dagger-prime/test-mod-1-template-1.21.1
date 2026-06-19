@@ -1,2 +1,9 @@
-// 1.21.1	2026-06-17T13:16:09.9838385	Test mod 1/Tags for minecraft:block
+// 1.21.1	2026-06-19T01:09:49.5271128	Test mod 1/Tags for minecraft:block
 7057eea8fa92a7c34aac10b68737167feff1db5c data\minecraft\tags\block\mineable\pickaxe.json
+8e07526273bd19107d780a3be550663b0871b924 data\test-mod-1\tags\block\needs_platinum_tool.json
+2388a399bed38da16133e2f7480d8c94be13c779 data\minecraft\tags\block\incorrect_for_netherite_tool.json
+2388a399bed38da16133e2f7480d8c94be13c779 data\minecraft\tags\block\incorrect_for_iron_tool.json
+2388a399bed38da16133e2f7480d8c94be13c779 data\minecraft\tags\block\incorrect_for_wooden_tool.json
+c3f92b6c1dc1670601596aa9ee1dc05367ad61df data\minecraft\tags\block\needs_diamond_tool.json
+2388a399bed38da16133e2f7480d8c94be13c779 data\minecraft\tags\block\incorrect_for_stone_tool.json
+2388a399bed38da16133e2f7480d8c94be13c779 data\minecraft\tags\block\incorrect_for_diamond_tool.json

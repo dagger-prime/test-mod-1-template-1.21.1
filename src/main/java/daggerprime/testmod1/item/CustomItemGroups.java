@@ -36,6 +36,24 @@ public class CustomItemGroups {
 
                     }).build());
 
+    public static final ItemGroup CUSTOM_GEAR = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TestMod1.MOD_ID, "platinum"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.custom_tools"))
+                    .icon(() -> new ItemStack(CustomItems.PLATINUM_PICKAXE)).entries((displayContext, entries) -> {
+                        entries.add(CustomItems.PLATINUM_PICKAXE);
+                        entries.add(CustomItems.MAGITECH_AXE);
+                        entries.add(CustomItems.MAGITECH_HOE);
+                        entries.add(CustomItems.MAGITECH_PICKAXE);
+                        entries.add(CustomItems.MAGITECH_SHOVEL);
+                        entries.add(CustomItems.MAGITECH_SWORD);
+                        entries.add(CustomItems.MAGITECH_HELMET);
+                        entries.add(CustomItems.MAGITECH_CHESTPLATE);
+                        entries.add(CustomItems.MAGITECH_BOOTS);
+                        entries.add(CustomItems.MAGITECH_LEGGINGS);
+
+
+                    }).build());
+
 
 
     public static void registerItemGroups() {

@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-17T13:16:09.9868354	Test mod 1/Model Definitions
+// 1.21.1	2026-06-19T01:09:49.5301309	Test mod 1/Model Definitions
 53656f206a133e70270a89e3e0db46e4a9535bff assets\test-mod-1\models\item\multus_gemma_ingot.json
 0baf1427f60ef20f1beda4595a344ec329a93085 assets\test-mod-1\models\item\raw_platinum.json
 4e1bf619c50d1fae8f68a6a3a2f59f60115cff0a assets\test-mod-1\blockstates\chronite_ore.json
@@ -6,6 +6,7 @@
 86feab2f63597a9e055aa3b05c5797dd7a196deb assets\test-mod-1\blockstates\astralite_ore.json
 c642743c2cb8f62ee604f327abefa3576cb522c0 assets\test-mod-1\models\block\astralite_ore.json
 a6b9c16b3a00f717de5e085f08ea458d72be85c7 assets\test-mod-1\models\item\void_ingot.json
+323244c73ec62798a93c2ded78d731fa82e09cef assets\test-mod-1\models\item\magitech_sword.json
 5883f0a7a8678e7e582ed266a826b678f920977a assets\test-mod-1\models\block\platinum_ore.json
 616f28d1a95b12404c96788d272f4d3125b6ffed assets\test-mod-1\models\item\ruby_ore.json
 7b2b13e02f344c602a9c8330c5b06c5cdf9134e7 assets\test-mod-1\models\item\platinum_ore.json
@@ -16,13 +17,22 @@ bb47e51599df00ed907f96c024a1a5929f0d9598 assets\test-mod-1\models\item\astralite
 a773d4b3daeb284f9cd0a005480a7985e1f0a8a0 assets\test-mod-1\models\item\chronite_ingot.json
 e9a4c34cc510f0d5f31132b90d516ea005167ce2 assets\test-mod-1\models\item\magitech_ingot.json
 4b9d05ecb71f040a97ace1de463d8cacb6c88086 assets\test-mod-1\blockstates\platinum_ore.json
-0c00b147e1dfda5c5752a5b82ebf908492b48116 assets\test-mod-1\models\item\platinum_ingot.json
+3c15d0da61752e85bec58ed1903b2e25399ff3eb assets\test-mod-1\models\item\magitech_chestplate.json
+247571c7809952dca5f7423ca9879a01ad18b78e assets\test-mod-1\models\item\magitech_axe.json
+1f1a321ac63785c2577a016a513363b5bfbfae4f assets\test-mod-1\models\item\magitech_hoe.json
+d773b5f5e81b65eba06a3679e57b606128f3381e assets\test-mod-1\models\item\magitech_leggings.json
 d046356b68efac26f989dc3740d0274e94921985 assets\test-mod-1\models\item\ruby_ingot.json
+0c00b147e1dfda5c5752a5b82ebf908492b48116 assets\test-mod-1\models\item\platinum_ingot.json
 42d87eba6fbc5f80e5466110bfe571c5528ef80b assets\test-mod-1\models\item\chronite_prism.json
+2d77257c3b6af78bb91ff3385bcbbe7b0d4a5e52 assets\test-mod-1\models\item\magitech_boots.json
 026eca22db0fdbebf723295d0cb2f643b226b528 assets\test-mod-1\models\item\ferrum_chalybs_ingot.json
 a365fbecc476021870fd72a217226ea07988f4d4 assets\test-mod-1\models\block\chronite_ore.json
+c270e29f8eee6674dce881540e5e280c010ff7ed assets\test-mod-1\models\item\platinum_pickaxe.json
+05f175e35fb0f91a91bb7fec9777a67299fc1078 assets\test-mod-1\models\item\magitech_shovel.json
 cfa65beb94cd52f79111bdf262f1d5bfc3178160 assets\test-mod-1\models\item\void_shard.json
+c732109b9dcac42e718e0235c25fe4d1df1a23fd assets\test-mod-1\models\item\magitech_pickaxe.json
 cbd0ee6e18521a3076dddb9fe645beeb03f87c1f assets\test-mod-1\models\block\void_ore.json
 da81457d65b6d01a4b2ced79f1a448428408bab0 assets\test-mod-1\models\item\chronite_ore.json
 7a47e3dcbe6bda4839d8908bb8bd2297d16fd6a8 assets\test-mod-1\blockstates\ruby_ore.json
+8be3b80b8426f3260ef555dcce8714c5c7c17df2 assets\test-mod-1\models\item\magitech_helmet.json
 8a87a1b6c73a305deea0abf939405d63a2225f7a assets\test-mod-1\models\item\raw_ruby.json

@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-17T13:16:09.9848351	Test mod 1/Recipes
+// 1.21.1	2026-06-19T01:09:49.5281184	Test mod 1/Recipes
 19577c24baf4acf9d756c09e480f363e0312d8af data\test-mod-1\advancement\recipes\misc\chronite_ingot_from_smelting_chronite_prism.json
 98c5f317ea0765b62c4004ad7145128c4f91fe26 data\test-mod-1\advancement\recipes\misc\ruby_ingot_from_smelting_raw_ruby.json
 f0886a8151d4af51869db0f8f39464a1d8c04b85 data\test-mod-1\advancement\recipes\misc\void_ingot_from_smelting_void_shard.json
@@ -10,8 +10,8 @@ b14d911ae759ff1030736dce05777214cefd2a31 data\test-mod-1\recipe\chronite_ingot_f
 332a7a1d2f71d82654817c84d6f6364b427c9842 data\test-mod-1\recipe\void_ingot_from_blasting_void_shard.json
 95f66ad187af4d7e6010d3f7ac5ba6a38d5cd6cd data\test-mod-1\advancement\recipes\misc\platinum_ingot_from_smelting_raw_platinum.json
 94acda8cc0601c3bbe85f9044abd212d9aea8fff data\test-mod-1\advancement\recipes\misc\platinum_ingot_from_blasting_raw_platinum.json
-259df6a2b47a7b6b8ca19f352b522f1efc73d02b data\test-mod-1\advancement\recipes\misc\void_ingot_from_blasting_void_shard.json
 249620aa9040adf61eaadf420d1894a8abc13115 data\test-mod-1\recipe\ruby_ingot_from_blasting_raw_ruby.json
+259df6a2b47a7b6b8ca19f352b522f1efc73d02b data\test-mod-1\advancement\recipes\misc\void_ingot_from_blasting_void_shard.json
 102e12a435008baa47994ca283ea72b1fb6164b2 data\test-mod-1\recipe\ruby_ingot_from_smelting_raw_ruby.json
 d9a597e35257301c23dad80b20dda9d093ebd524 data\test-mod-1\recipe\platinum_ingot_from_smelting_raw_platinum.json
 9ed83417cb96605ea58964652f82c997988ffe0b data\test-mod-1\advancement\recipes\misc\chronite_ingot_from_blasting_chronite_prism.json

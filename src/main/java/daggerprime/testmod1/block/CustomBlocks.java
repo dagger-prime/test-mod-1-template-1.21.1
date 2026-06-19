@@ -22,7 +22,7 @@ public class CustomBlocks {
     public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,4), AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.ANVIL)
-                    .strength(3f)
+                    .strength(8f)
                     .requiresTool()));
 
     public static final Block VOID_ORE = registerBlock("void_ore",

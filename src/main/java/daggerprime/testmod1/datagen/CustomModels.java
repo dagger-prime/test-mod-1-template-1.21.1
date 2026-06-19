@@ -37,5 +37,16 @@ public class CustomModels extends FabricModelProvider {
         itemModelGenerator.register(CustomItems.PLATINUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(CustomItems.MULTUS_GEMMA_INGOT, Models.GENERATED);
         itemModelGenerator.register(CustomItems.VOID_INGOT, Models.GENERATED);
+        itemModelGenerator.register(CustomItems.PLATINUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(CustomItems.MAGITECH_AXE, Models.HANDHELD);
+        itemModelGenerator.register(CustomItems.MAGITECH_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(CustomItems.MAGITECH_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(CustomItems.MAGITECH_HOE, Models.HANDHELD);
+        itemModelGenerator.register(CustomItems.MAGITECH_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(CustomItems.MAGITECH_HELMET, Models.GENERATED);
+        itemModelGenerator.register(CustomItems.MAGITECH_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(CustomItems.MAGITECH_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(CustomItems.MAGITECH_LEGGINGS, Models.GENERATED);
+
     }
 }

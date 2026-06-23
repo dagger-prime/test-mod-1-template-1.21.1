@@ -3,7 +3,6 @@ package daggerprime.testmod1.item;
 import daggerprime.testmod1.TestMod1;
 import daggerprime.testmod1.block.CustomBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -51,6 +50,15 @@ public class CustomItemGroups {
                         entries.add(CustomItems.MAGITECH_BOOTS);
                         entries.add(CustomItems.MAGITECH_LEGGINGS);
 
+
+                    }).build());
+
+    public static final ItemGroup MODDED_ENVIRONMENT = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TestMod1.MOD_ID, "stormberry"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modded_environment"))
+                    .icon(() -> new ItemStack(CustomItems.STORMBERRY_SEEDS)).entries((displayContext, entries) -> {
+                        entries.add(CustomItems.STORMBERRY_SEEDS);
+                        entries.add(CustomItems.STORMBERRIES);
 
                     }).build());
 

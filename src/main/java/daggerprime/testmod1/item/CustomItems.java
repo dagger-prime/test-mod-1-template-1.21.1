@@ -2,10 +2,12 @@ package daggerprime.testmod1.item;
 
 
 import daggerprime.testmod1.TestMod1;
+import daggerprime.testmod1.block.CustomBlocks;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
@@ -59,14 +61,20 @@ public class CustomItems {
     public static final Item MAGITECH_HOE = registerItem("magitech_hoe", new HoeItem(CustomToolMaterials.MAGITECH,
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(CustomToolMaterials.MAGITECH,-2,-1.0f))));
 
-    public static final Item MAGITECH_HELMET = registerItem("magitech_helmet", new ArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
+    public static final Item MAGITECH_HELMET = registerItem("magitech_helmet", new CustomArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
             ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
-    public static final Item MAGITECH_CHESTPLATE = registerItem("magitech_chestplate", new ArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
+    public static final Item MAGITECH_CHESTPLATE = registerItem("magitech_chestplate", new CustomArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
             ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
-    public static final Item MAGITECH_LEGGINGS = registerItem("magitech_leggings", new ArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
+    public static final Item MAGITECH_LEGGINGS = registerItem("magitech_leggings", new CustomArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
             ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
-    public static final Item MAGITECH_BOOTS = registerItem("magitech_boots", new ArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
+    public static final Item MAGITECH_BOOTS = registerItem("magitech_boots", new CustomArmorItem(CustomArmorMaterials.MAGITECH_ARMOR_MATERIAL,
             ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item NOVA_SMITHING_TEMPLATE = registerItem("nova_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(TestMod1.MOD_ID, "nova"), FeatureFlags.VANILLA));
+
+    public static final Item STORMBERRY_SEEDS = registerItem("stormberry_seeds", new AliasedBlockItem(CustomBlocks.STORMBERRY_PLANT, new Item.Settings()));
+    public static final Item STORMBERRIES = registerItem("stormberries", new Item(new Item.Settings().food(CustomFoodComponent.STORMBERRIES)));
 
 
 

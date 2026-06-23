@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-19T01:09:49.5261133	Test mod 1/Tags for minecraft:item
+// 1.21.1	2026-06-22T15:29:39.662508	Test mod 1/Tags for minecraft:item
 215d66e3a48dc4c4168a5660b8e8a2ad6c894af6 data\minecraft\tags\item\hoes.json
 5c6f37daefc343bb749721fd6ff07606b9bf2242 data\minecraft\tags\item\swords.json
 e31a490d06cf3ec261da4963ea253271c9a063c7 data\minecraft\tags\item\leg_armor.json
@@ -10,5 +10,6 @@ fc170614d7269aa9ad1064854aa0aef471539ff8 data\minecraft\tags\item\enchantable\he
 5c6f37daefc343bb749721fd6ff07606b9bf2242 data\minecraft\tags\item\shovels.json
 5d1bc7d835d2c5a3563f7e8e7ab8503b12e08bd3 data\minecraft\tags\item\foot_armor.json
 e31a490d06cf3ec261da4963ea253271c9a063c7 data\minecraft\tags\item\enchantable\leg_armor.json
+5d6c97100a3b20b321faacd4d2d0f0f95a33c144 data\minecraft\tags\item\trimmable_armor.json
 fc170614d7269aa9ad1064854aa0aef471539ff8 data\minecraft\tags\item\head_armor.json
 af1262d518baa243d77b2857f2b27af7c3763918 data\minecraft\tags\item\pickaxes.json

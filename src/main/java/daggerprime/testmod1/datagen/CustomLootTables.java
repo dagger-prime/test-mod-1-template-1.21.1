@@ -1,20 +1,24 @@
 package daggerprime.testmod1.datagen;
 
 import daggerprime.testmod1.block.CustomBlocks;
+import daggerprime.testmod1.block.custom.StormBerryCropBlock;
 import daggerprime.testmod1.item.CustomItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -32,6 +36,10 @@ public class CustomLootTables extends FabricBlockLootTableProvider {
         addDrop(CustomBlocks.PLATINUM_ORE, manyOreDrops(CustomBlocks.PLATINUM_ORE, CustomItems.RAW_PLATINUM, 1,1));
         addDrop(CustomBlocks.CHRONITE_ORE, manyOreDrops(CustomBlocks.CHRONITE_ORE, CustomItems.CHRONITE_PRISM, 1,1));
         addDrop(CustomBlocks.VOID_ORE, manyOreDrops(CustomBlocks.VOID_ORE, CustomItems.VOID_SHARD, 3,6));
+
+        BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(CustomBlocks.STORMBERRY_PLANT)
+                .properties(StatePredicate.Builder.create().exactMatch(StormBerryCropBlock.AGE, 5));
+        this.addDrop(CustomBlocks.STORMBERRY_PLANT, this.cropDrops(CustomBlocks.STORMBERRY_PLANT, CustomItems.STORMBERRIES, CustomItems.STORMBERRY_SEEDS, builder));
 
 
     }

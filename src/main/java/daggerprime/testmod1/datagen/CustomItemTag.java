@@ -41,6 +41,11 @@ public class CustomItemTag extends FabricTagProvider.ItemTagProvider {
                 .add(CustomItems.MAGITECH_LEGGINGS);
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE)
                 .add(CustomItems.MAGITECH_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(CustomItems.MAGITECH_BOOTS,
+                        CustomItems.MAGITECH_LEGGINGS,
+                        CustomItems.MAGITECH_HELMET,
+                        CustomItems.MAGITECH_CHESTPLATE);
 
     }
 }

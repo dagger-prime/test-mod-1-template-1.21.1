@@ -1,8 +1,10 @@
 package daggerprime.testmod1.block;
 
 import daggerprime.testmod1.TestMod1;
+import daggerprime.testmod1.block.custom.StormBerryCropBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -42,6 +44,13 @@ public class CustomBlocks {
                     .sounds(BlockSoundGroup.DECORATED_POT_SHATTER)
                     .strength(4f)
                     .requiresTool()));
+
+    public static final Block STORMBERRY_PLANT = registerBlockWithoutBlockItem("stormberry_plant",
+            new StormBerryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(TestMod1.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

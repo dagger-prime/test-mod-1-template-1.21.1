@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "test-mod-1:block/astralite_ore"
-  }
-}

@@ -1,12 +1,14 @@
 package daggerprime.testmod1.datagen;
 
 import daggerprime.testmod1.block.CustomBlocks;
+import daggerprime.testmod1.block.custom.StormBerryCropBlock;
 import daggerprime.testmod1.item.CustomItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class CustomModels extends FabricModelProvider {
     public CustomModels(FabricDataOutput output) {
@@ -20,6 +22,7 @@ public class CustomModels extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(CustomBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(CustomBlocks.PLATINUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(CustomBlocks.CHRONITE_ORE);
+        blockStateModelGenerator.registerCrop(CustomBlocks.STORMBERRY_PLANT, StormBerryCropBlock.AGE, 0,1,2,3,4,5);
 
     }
 
@@ -43,10 +46,12 @@ public class CustomModels extends FabricModelProvider {
         itemModelGenerator.register(CustomItems.MAGITECH_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(CustomItems.MAGITECH_HOE, Models.HANDHELD);
         itemModelGenerator.register(CustomItems.MAGITECH_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(CustomItems.MAGITECH_HELMET, Models.GENERATED);
-        itemModelGenerator.register(CustomItems.MAGITECH_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(CustomItems.MAGITECH_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(CustomItems.MAGITECH_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.registerArmor(((ArmorItem) CustomItems.MAGITECH_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) CustomItems.MAGITECH_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) CustomItems.MAGITECH_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) CustomItems.MAGITECH_LEGGINGS));
+        itemModelGenerator.register(CustomItems.NOVA_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(CustomItems.STORMBERRIES, Models.GENERATED);
 
     }
 }

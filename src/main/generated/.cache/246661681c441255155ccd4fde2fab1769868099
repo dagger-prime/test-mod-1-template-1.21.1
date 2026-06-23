@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-19T01:09:49.5271128	Test mod 1/Tags for minecraft:block
+// 1.21.1	2026-06-22T15:29:39.6635063	Test mod 1/Tags for minecraft:block
 7057eea8fa92a7c34aac10b68737167feff1db5c data\minecraft\tags\block\mineable\pickaxe.json
 8e07526273bd19107d780a3be550663b0871b924 data\test-mod-1\tags\block\needs_platinum_tool.json
 2388a399bed38da16133e2f7480d8c94be13c779 data\minecraft\tags\block\incorrect_for_netherite_tool.json

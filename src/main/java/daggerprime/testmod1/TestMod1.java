@@ -1,11 +1,17 @@
 package daggerprime.testmod1;
 
 import daggerprime.testmod1.block.CustomBlocks;
+import daggerprime.testmod1.effect.CustomEffects;
 import daggerprime.testmod1.item.CustomItemGroups;
 import daggerprime.testmod1.item.CustomItems;
+import daggerprime.testmod1.potion.CustomPotions;
+import daggerprime.testmod1.world.gen.CustomWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.item.Items;
+import net.minecraft.potion.Potions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +25,12 @@ public class TestMod1 implements ModInitializer {
         CustomItemGroups.registerItemGroups();
         CustomBlocks.registerCustomBlocks();
         FuelRegistry.INSTANCE.add(CustomItems.VOID_SHARD, 1600);
+        CustomEffects.registerEffects();
+        CustomPotions.registerPotions();
+        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+            builder.registerPotionRecipe(Potions.AWKWARD, Items.WITHER_SKELETON_SKULL, CustomPotions.POTION_OF_POWER);
+        });
+        CustomWorldGeneration.generateModWorldGeneration();
 
         LOGGER.info("Hello Fabric world!");
     }

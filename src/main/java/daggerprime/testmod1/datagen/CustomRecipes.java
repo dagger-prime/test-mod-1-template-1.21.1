@@ -30,7 +30,7 @@ public class CustomRecipes  extends FabricRecipeProvider {
         List<ItemConvertible> CHRON = List.of(CustomItems.CHRONITE_PRISM);
         offerSmelting(exporter, CHRON , RecipeCategory.MISC, CustomItems.CHRONITE_INGOT, 0.8f, 800, "Special Ores");
         offerBlasting(exporter, CHRON , RecipeCategory.MISC, CustomItems.CHRONITE_INGOT, 0.8f, 700, "Special Ores");
-
+        offerFoodCookingRecipe();
 
     }
 }

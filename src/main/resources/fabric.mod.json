@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"daggerprime.testmod1.TestMod1DataGenerator"
-		]
+		],
+        "client": [
+          "daggerprime.testmod1.TestMod1Client"
+        ]
 	},
 	"mixins": [
 		"test-mod-1.mixins.json"

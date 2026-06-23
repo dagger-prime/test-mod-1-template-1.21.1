@@ -1,0 +1,8 @@
+{
+  "asset_id": "test-mod-1:nova",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.test-mod-1.nova"
+  },
+  "template_item": "test-mod-1:nova_armor_trim_smithing_template"
+}

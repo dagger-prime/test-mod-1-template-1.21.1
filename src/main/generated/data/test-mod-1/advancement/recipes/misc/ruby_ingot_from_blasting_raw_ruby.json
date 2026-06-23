@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_ruby": {
+      "conditions": {
+        "items": [
+          {
+            "items": "test-mod-1:raw_ruby"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "test-mod-1:ruby_ingot_from_blasting_raw_ruby"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_ruby"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "test-mod-1:ruby_ingot_from_blasting_raw_ruby"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "test-mod-1:void_ingot_from_blasting_void_shard"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "test-mod-1:void_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_void_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "test-mod-1:void_ingot_from_blasting_void_shard"
+    ]
+  }
+}

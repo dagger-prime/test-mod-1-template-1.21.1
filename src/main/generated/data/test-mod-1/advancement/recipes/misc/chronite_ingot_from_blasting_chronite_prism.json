@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chronite_prism": {
+      "conditions": {
+        "items": [
+          {
+            "items": "test-mod-1:chronite_prism"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "test-mod-1:chronite_ingot_from_blasting_chronite_prism"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chronite_prism"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "test-mod-1:chronite_ingot_from_blasting_chronite_prism"
+    ]
+  }
+}

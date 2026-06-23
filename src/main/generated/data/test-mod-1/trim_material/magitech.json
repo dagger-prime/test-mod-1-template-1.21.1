@@ -1,0 +1,9 @@
+{
+  "asset_name": "magitech",
+  "description": {
+    "color": "#6B3A9A",
+    "translate": "trim_material.test-mod-1.magitech"
+  },
+  "ingredient": "test-mod-1:magitech_ingot",
+  "item_model_index": 1.0
+}

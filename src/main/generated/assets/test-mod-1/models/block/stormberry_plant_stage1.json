@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "test-mod-1:block/stormberry_plant_stage1"
+  }
+}

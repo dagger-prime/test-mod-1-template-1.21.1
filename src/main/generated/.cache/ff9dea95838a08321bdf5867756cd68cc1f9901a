@@ -1,0 +1,11 @@
+// 1.21.1	2026-06-22T15:29:39.6665054	Test mod 1/Dagger World Gen
+a0e57bb330dc01c805f788c6cf7cbdb87e25cf3f data\test-mod-1\worldgen\placed_feature\ruby_ore_placed.json
+e804a13f6f6427bf84775bd65296ff7835e520c9 data\test-mod-1\worldgen\placed_feature\void_ore_placed.json
+de524844b98026b8220f9b60ac7ff3f7d7b6e1d2 data\test-mod-1\worldgen\placed_feature\chronite_ore_placed.json
+dc789020717567a5393ee5d6e3ac6b3cd49df6e8 data\test-mod-1\worldgen\placed_feature\platinum_ore_placed.json
+ad6c97e1547ce286554e148af2ded34110890ed5 data\test-mod-1\worldgen\configured_feature\platinum_ore.json
+a1abdb4ff038b32b806c2ff8f3d3f343b02bcbd1 data\test-mod-1\worldgen\placed_feature\astralite_ore_placed.json
+8f9229cbd1de210d7a32ea663ac14b9f45f3498b data\test-mod-1\worldgen\configured_feature\chronite_ore.json
+147f3dc1eb111acf4221dbd2315776fb0d0d73d1 data\test-mod-1\worldgen\configured_feature\void_ore.json
+7b7207ef45f06964668cf23c6b0ab3188b96bc82 data\test-mod-1\worldgen\configured_feature\ruby_ore.json
+8f9229cbd1de210d7a32ea663ac14b9f45f3498b data\test-mod-1\worldgen\configured_feature\astralite_ore.json
